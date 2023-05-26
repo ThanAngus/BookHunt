@@ -56,12 +56,18 @@ dependencies:
 
 ## Screenshots
 
+### Phone Screenshots
 ![App Screenshot](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_1.png?raw=true)
 
 ![App Screenshot](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_2.png?raw=true)
 
 ![App Screenshot](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_3.png?raw=true)
 
+### Web screenshots
+![Web Screenshots](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_webHome.png?raw=true)
+![Web Screenshots](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_webBooks.png?raw=true)
+![Web Screenshots](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_webSearch.png?raw=true)
+![Web Screenshots](https://github.com/ThanAngus/BookHunt/blob/main/screenshot/screenshot_webResult.png?raw=true)
 
 ## Tech Stack
 
