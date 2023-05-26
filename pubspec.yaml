@@ -1,0 +1,63 @@
+name: book_hunt
+description: Unleash your inner book hunter with BookHunt. Find, explore, and dive into captivating reads effortlessly. Start your literary adventure today!
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.8.1
+  flutter_riverpod: ^2.3.6
+  flutter_svg: ^2.0.6
+  http: ^0.13.6
+  dio: ^5.1.2
+  shimmer: ^2.0.0
+  get_it: ^7.6.0
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.11
+  flutter_archive: ^5.0.0
+  flutter_native_splash: ^2.3.0
+  rename: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  color: "#5E56E7"
+  image: assets/images/logo.png
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/json/
+
+  fonts:
+    - family: Brand-Regular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: Brand-Bold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
